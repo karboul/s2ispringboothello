@@ -26,7 +26,7 @@ public class HelloWorldController
 		 run_env = System.getenv("RUN_ENV");
 		 
 		 String output;
-		 output = "<center><H1>Greetings for the day - Welcome to the Demo</H1>";
+		 output = "<center><H1>Greetings for the day - Welcome to the DEMO</H1>";
 		 output = output + "<h2 style='color:green;'>version : 3.0</h2>";
 		 output = output + "<h2 style='color:red;'> Previous Timestamp :"+prev_timestamp+"</h2>";
 		 output = output + "<h2 style='color:blue;'> Latest Timestamp :"+latest_timestamp+"</h2>";
