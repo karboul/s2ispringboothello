@@ -37,5 +37,17 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+	    <repository>
+		<id>jfrog-central</id>
+		<name>a0rz6ryqtnp2l-artifactory-primary-0-releases</name>
+		<url>https://sachinbhuibar.jfrog.io/artifactory/maven-repo-for-demo</url>
+	    </repository>
+	    <snapshotRepository>
+		<id>jfrog-snapshots</id>
+		<name>a0rz6ryqtnp2l-artifactory-primary-0-snapshots</name>
+		<url>https://sachinbhuibar.jfrog.io/artifactory/maven-repo-for-demo</url>
+	    </snapshotRepository>
+	</distributionManagement>
 
 </project>
